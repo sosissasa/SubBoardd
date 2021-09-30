@@ -1,0 +1,70 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: $baseFontSize;
+	position: relative;
+	line-height: 1.42;
+	color: #666666;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	max-width: $containerWidth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: rem(0px);
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin: rem(0px);
+	padding: rem(0px);
+}
+
+p {
+	padding: rem(0px)
+	//margin: rem(0px);
+}
+
+footer {
+	position: relative;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}

@@ -1,0 +1,19 @@
+.button {
+	font-size: rem(16px);
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: rem(21px) rem(41px);
+	border-radius: rem(1000000px);
+	line-height: 1;
+	border: none;
+
+	&--theme--yellow {
+		background: #FEDB3F;
+	}
+
+	&--theme--transparent {
+		background: transparent;
+		color: #fff ;
+	}
+}
+
