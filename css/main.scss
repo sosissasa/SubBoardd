@@ -1,5 +1,5 @@
-$containerWidth: rem(1100px);
-$baseFontSize: rem(18px);
+$baseFontSize: 18px;
+$containerWidth: 1100px;
 
 //colors
 $blue: #61c4d9;
@@ -12,7 +12,7 @@ $z-fixed-menu: 100;
 @import "layout.scss";
 @import "components/hero.scss";
 @import "components/header.scss";
-@import "components/features__list.scss";
+@import "components/feature.scss";
 @import "components/button.scss";
 @import "components/section.scss";
 @import "components/benefit.scss";
@@ -23,3 +23,4 @@ $z-fixed-menu: 100;
 @import "components/form.scss";
 @import "components/radio.scss";
 @import "components/fixed-menu.scss";
+

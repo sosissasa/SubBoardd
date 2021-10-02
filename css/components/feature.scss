@@ -1,13 +1,31 @@
 .features {
-	display: flex;
+  display: flex;
+}
+
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.features__list {
+  display: flex;
+}
+
+.features__item {
+  margin-right: rem(46px);
+
+  &:last-child {
+    margin-right: rem(0px);
+  }
 }
 
 .features__icon {
-	width: rem(35px);
-	margin-right: rem(7px);
+  width: rem(35px);
+  margin-right: rem(7px);
 }
 
 .features__text {
-	font-size: rem(16px);
-	max-width: rem(85px);
+  font-size: rem(16px);
+  max-width: rem(85px);
 }

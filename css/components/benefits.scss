@@ -3,11 +3,16 @@
 }
 
 .benefits__item {
-	flex: 1;
+	//flex: 1;
 	padding: 0 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
 
 	&:before {
-		content: url('../../img/circles.png');
+		content: url('../img/circles.png');
 		position: absolute;
 		top: rem(30px);
 		right: rem(0px);
