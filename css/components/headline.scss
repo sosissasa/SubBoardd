@@ -3,10 +3,11 @@
 }
 
 .headline__title {
-	margin-bottom: 25px;
+	margin-bottom: rem(25px);
+	color: #292929;
 }
 
 .headline__subtitle {
 	padding: 0 26%;
-	margin-bottom: 50px;
+	margin-bottom: rem(50px);
 }

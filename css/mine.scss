@@ -1,0 +1,25 @@
+$baseFontSize: 18px;
+$containerWidth: 1100px;
+
+//colors
+$blue: #61c4d9;
+
+//z-index
+
+$z-fixed-menu: 100;
+@import "media.scss";
+@import "normalize.scss";
+@import "layout.scss";
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/feature.scss";
+@import "components/button.scss";
+@import "components/section.scss";
+@import "components/benefit.scss";
+@import "components/benefits.scss";
+@import "components/headline.scss";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/form.scss";
+@import "components/radio.scss";
+@import "components/fixed-menu.scss";

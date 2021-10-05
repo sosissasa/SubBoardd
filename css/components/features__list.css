@@ -1,0 +1,12 @@
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__item {
+  margin-right: rem(46px);
+}
+.features__item:last-child {
+  margin-right: rem(0px);
+}
